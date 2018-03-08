@@ -1,9 +1,7 @@
 backend:
-  name: git-gateways
-  repo: mstommes/netlifycats # Path to your Github repository
-  branch: testbranch # Branch to update (optional; defaults to master)
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
 
-display_url: https://netlifycattest.com
 media_folder: "public/media/images/uploads"
 
 collections: # A list of collections the CMS should be able to edit
